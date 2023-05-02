@@ -6,13 +6,13 @@
     overflow: auto;
     display: flex;
     flex-wrap: wrap;
-    /* scroll-snap-align:  x mandatory; */
 }
 
 .forecastDiv {
     background-color: lightblue;
     flex-shrink: 0;
-    /* scroll-snap-align: start; */
+    margin: 10px;
+    text-align: center;
 }
 
 .forecastDiv img {
