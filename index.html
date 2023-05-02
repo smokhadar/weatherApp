@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>WeatherApp</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./assets/style.css"></link>
+    </head>
+
+    <header class="d-flex">
+        <div class="container-fluid">
+            <h1 class="display-3 text-center" >Weather Dashboard</h1>
+            <div id="buttons">
+                <button id="search" class="button"> 
+                        <a href="index.html" class="btn btn-block">Search</a></button>
+                <button id="recents" class="button"> 
+                        <a href="recents.html" class="btn btn-block">Recents</a></button>
+            </div>
+        </div>
+    </header>
+
+    <body>
+        <aside class="navbar bg-body-tertiary" id="searchBar">
+            <form id="searchForm" class="d-flex" role="search">
+                <input id="userInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button id="genBtn" class="btn btn-outline-success">Search</button>
+            </form>
+        </aside>
+        <div id="cityInfo"></div>
+        <div id="forecast"></div>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script rel="js" src="assets/script.js"></script>
+    </body>
+</html>
