@@ -6,6 +6,11 @@
     overflow: auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
 }
 
 .forecastDiv {
@@ -13,6 +18,7 @@
     flex-shrink: 0;
     margin: 10px;
     text-align: center;
+    width: 250px;
 }
 
 .forecastDiv img {
